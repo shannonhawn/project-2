@@ -1,0 +1,90 @@
+html{
+  box-sizing:border-box;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+header{
+  text-align: center;
+  background-color: #e7001d;
+  margin: 0em;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav{
+  background-color:222222;
+  padding:.5em .5em 0.5em 0em;
+  border:black;
+}
+
+nav li{
+  display:inline-block;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em .75em;
+  background-color:black;
+  color:white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+h2{
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Noto Sans", normal;
+  line-height: 1.5;
+  color:white;
+  margin:0em;
+  padding: 0.5em .75em;
+}
+
+h3{
+    background-color:#e4c22a;
+    font-family: "Noto Sans", normal;
+    line-height: 1.5;
+    color:black;
+    margin:0em;
+    padding: 0.5em .75em;
+  }
+
+h4{
+  background-color:black;
+  font-family: "Noto Sans", normal;
+  line-height: 1.5;
+  color:white;
+  margin:0em;
+  padding: 0.5em .75em;
+}
+
+h4{
+  background-color:#bc0017;
+  font-family: "Noto Sans", normal;
+  line-height: 1.5;
+  color:white;
+  margin:0em;
+  padding: 0.5em .75em;
+}
+
+p{
+  font-size: .75rem;
+  font-style: italic;
+  font-family: "Noto Sans", normal;
+  line-height: 1.5;
+  color:black;
+  margin:1em;
+}
+
+footer{
+  text:center;
+  background-color:black;
+  width:100%;
+  color:white;
+}
