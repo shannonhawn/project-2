@@ -34,7 +34,6 @@ nav a{
   text-decoration: none;
 }
 
-
 h2{
   font-size: 1.5rem;
   font-style: italic;
@@ -43,7 +42,7 @@ h2{
   color:white;
   margin:0em;
   padding: 0.5em .75em;
-  width:100%
+  width:100%;
 }
 
 h3{
@@ -53,7 +52,7 @@ h3{
     color:black;
     margin:0em;
     padding: 0.5em .75em;
-    width:100%
+    width:100%;
   }
 
 h4{
@@ -63,7 +62,7 @@ h4{
   color:white;
   margin:0em;
   padding: 0.5em .75em;
-  width:100%
+  width:100%;
 }
 
 h5{
@@ -73,7 +72,7 @@ h5{
   color:white;
   margin:0em;
   padding: 0.5em .75em;
-  width:100%
+  width:100%;
 }
 
 p{
@@ -97,8 +96,8 @@ p{
     width:320px;
     margin: 0 auto;
     padding-top: 60px;
+    right:35px;
 }
-
 
 .dragon{
   position:relative;
@@ -119,6 +118,14 @@ p{
   width:320px;
   margin: 0 auto;
   padding-top: 60px;
+}
+
+.rooster{
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  padding-top: 60px;
+  background-color:black;
 }
 
 footer{
