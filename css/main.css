@@ -12,6 +12,13 @@ header{
   margin: 0em;
 }
 
+.medallion{
+    position:relative;
+    width:320px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
 nav ul{
   list-style-type: none;
 }
@@ -43,6 +50,7 @@ h2{
   margin:0em;
   padding: 0.5em .75em;
   width:100%;
+  text-align:center;
 }
 
 h3{
@@ -53,6 +61,19 @@ h3{
     margin:0em;
     padding: 0.5em .75em;
     width:100%;
+    text-align:center;
+  }
+
+  .dragon-symbol{
+      width:320px;
+      float: left;
+  }
+
+  .dragon{
+    position:relative;
+    width:320px;
+    margin: 0 auto;
+    background-color:#e4c22a;
   }
 
 h4{
@@ -63,6 +84,23 @@ h4{
   margin:0em;
   padding: 0.5em .75em;
   width:100%;
+  text-align:center;
+}
+
+.goat{
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  background-color:black;
+}
+
+.goat-symbol{
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  background-color:black;
+  float:right;
+  clear:right;
 }
 
 h5{
@@ -73,6 +111,23 @@ h5{
   margin:0em;
   padding: 0.5em .75em;
   width:100%;
+  text-align:center;
+}
+
+.rooster{
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  background-color:#bc0017;
+}
+
+.rooster-symbol{
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  background-color:#bc0017;
+  float:right;
+  clear:right;
 }
 
 p{
@@ -84,53 +139,36 @@ p{
   margin:1em;
 }
 
-.medallion{
-    position:relative;
-    width:320px;
-    margin: 0 auto;
-    padding-top: 60px;
-}
-
-.dragon-symbol{
-    position:relative;
-    width:320px;
-    margin: 0 auto;
-    padding-top: 60px;
-    right:35px;
-}
-
-.dragon{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  padding-top: 60px;
+h6{
+  background-color:#e4c22a;
+  font-family: "Noto Sans", normal;
+  line-height: 1.5;
+  color:white;
+  margin:0em;
+  padding: 0.5em .75em;
+  width:100%;
+  text-align:center;
 }
 
 .ox-symbol{
   position:relative;
   width:320px;
   margin: 0 auto;
-  padding-top: 60px;
+  background-color: #e4c22a;
 }
 
 .ox{
   position:relative;
   width:320px;
   margin: 0 auto;
-  padding-top: 60px;
-}
-
-.rooster{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  padding-top: 60px;
-  background-color:black;
+  background-color: #e4c22a;
 }
 
 footer{
-  text:center;
-  background-color:black;
-  width:100%;
-  color:white;
+  color: white;
+  background-color: black;
+  clear: both;
+  font-size: 10px;
+  padding: 1em;
+  text-align: center;
 }
