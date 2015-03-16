@@ -59,7 +59,7 @@ h3{
     line-height: 1.5;
     color:black;
     margin:0em;
-    padding: 0.5em .75em;
+    padding: 5em 5em;
     width:100%;
     text-align:center;
   }
@@ -67,13 +67,15 @@ h3{
   .dragon-symbol{
       width:320px;
       float: left;
+      clear:left;
+      background-color:#e4c22a
   }
 
   .dragon{
     position:relative;
     width:320px;
     margin: 0 auto;
-    background-color:#e4c22a;
+    background-color:#e4c22a
   }
 
 h4{
@@ -139,13 +141,14 @@ p{
   margin:1em;
 }
 
+
 h6{
   background-color:#e4c22a;
   font-family: "Noto Sans", normal;
   line-height: 1.5;
   color:white;
   margin:0em;
-  padding: 0.5em .75em;
+  padding: .5em .75em;
   width:100%;
   text-align:center;
 }
@@ -154,14 +157,18 @@ h6{
   position:relative;
   width:320px;
   margin: 0 auto;
-  background-color: #e4c22a;
+  float:left;
+  clear:left;
+  background-color:#e4c22a
 }
 
 .ox{
   position:relative;
   width:320px;
   margin: 0 auto;
-  background-color: #e4c22a;
+  float:right;
+  clear:right;
+  background-color:#e4c22a
 }
 
 footer{
