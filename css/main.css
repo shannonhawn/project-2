@@ -70,6 +70,7 @@ h3{
       width:320px;
       float:right;
       width:50%;
+      background-color:#e4c22a;
   }
 
   .dragon-image{
@@ -77,6 +78,7 @@ h3{
     width:320px;
     margin: 0 auto;
     width:50%;
+    background-color:#e4c22a;
   }
 
 h4{
@@ -121,6 +123,7 @@ h5{
       width:320px;
       float:right;
       width:50%;
+      background-color:#bc0017;
   }
 
 
@@ -129,6 +132,7 @@ h5{
     width:320px;
     margin: 0 auto;
     width:50%;
+    background-color:#bc0017;
 }
 
 p{
@@ -156,12 +160,14 @@ h6{
       width:320px;
       float:right;
       width:50%;
+      background-color:#e4c22a;
 }
 
 .ox-image{
   width:320px;
   float:right;
   width:50%;
+  background-color:#e4c22a;
 }
 
 footer{
