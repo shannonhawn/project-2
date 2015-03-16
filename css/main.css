@@ -10,6 +10,8 @@ header{
   text-align: center;
   background-color: #e7001d;
   margin: 0em;
+  padding:0;
+  overflow:hidden;
 }
 
 .medallion{
@@ -59,23 +61,22 @@ h3{
     line-height: 1.5;
     color:black;
     margin:0em;
-    padding: 5em 5em;
+    padding: .5em .5em;
     width:100%;
     text-align:center;
   }
 
   .dragon-symbol{
       width:320px;
-      float: left;
-      clear:left;
-      background-color:#e4c22a
+      float:right;
+      width:50%;
   }
 
-  .dragon{
-    position:relative;
+  .dragon-image{
+    float:left;
     width:320px;
     margin: 0 auto;
-    background-color:#e4c22a
+    width:50%;
   }
 
 h4{
@@ -90,20 +91,20 @@ h4{
 }
 
 .goat{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
   background-color:black;
 }
 
+.goat-image{
+      width:320px;
+      float:right;
+      width:50%;
+  }
+
 .goat-symbol{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  background-color:black;
-  float:right;
-  clear:right;
-}
+      width:320px;
+      float:right;
+      width:50%;
+  }
 
 h5{
   background-color:#bc0017;
@@ -116,20 +117,18 @@ h5{
   text-align:center;
 }
 
-.rooster{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  background-color:#bc0017;
-}
+.rooster-image{
+      width:320px;
+      float:right;
+      width:50%;
+  }
+
 
 .rooster-symbol{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  background-color:#bc0017;
-  float:right;
-  clear:right;
+    float:left;
+    width:320px;
+    margin: 0 auto;
+    width:50%;
 }
 
 p{
@@ -154,21 +153,15 @@ h6{
 }
 
 .ox-symbol{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  float:left;
-  clear:left;
-  background-color:#e4c22a
+      width:320px;
+      float:right;
+      width:50%;
 }
 
-.ox{
-  position:relative;
+.ox-image{
   width:320px;
-  margin: 0 auto;
   float:right;
-  clear:right;
-  background-color:#e4c22a
+  width:50%;
 }
 
 footer{
