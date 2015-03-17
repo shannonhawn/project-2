@@ -1,5 +1,6 @@
 html{
   box-sizing:border-box;
+  font-family:"Noto-sans";
 }
 
 *,*::before, *::after {
@@ -7,18 +8,22 @@ html{
 }
 
 header{
-  text-align: center;
+  position:relative;
   background-color: #e7001d;
-  margin: 0em;
-  padding:0;
-  overflow:hidden;
+  padding:0.75em 0;
+  text-align:center;
+}
+
+.symbol{
+  color:white;
+  font-size:30px;
+  padding:0em;
+  position:absolute;
+  font-weight:700;
 }
 
 .medallion{
-  position:relative;
-  width:320px;
-  margin: 0 auto;
-  padding-top: 60px;
+  width:55px;
 }
 
 nav ul{
@@ -47,6 +52,13 @@ nav a{
   width:100%;
 }
 
+h1{
+  font-size: 1.5rem;
+  font-family: "Noto Sans";
+  line-height:1.5;
+  color:white;
+  text-align:center;
+}
 
 h2{
   font-size: 1.5rem;
@@ -55,7 +67,6 @@ h2{
   line-height: 1.5;
   color:white;
   margin:0em;
-  padding: 0.5em .75em;
   width:100%;
   text-align:center;
   font-style:bold;
@@ -67,27 +78,26 @@ h3{
   line-height: 1.5;
   color:black;
   margin:0em;
-  padding: .5em .5em;
   width:100%;
   text-align:center;
   font-style:bold;
   }
 
+.dragon{
+  background-color:#e4c22a;
+}
   .dragon-symbol{
-    float:right;
+    float:left;
     width:50%;
-    background-color:#e4c22a;
   }
 
   .dragon-image{
-    float:left;
+    float:right;
     margin: 0 auto;
     width:50%;
-    background-color:#e4c22a;
   }
 
   .dragon-caption{
-    background-color:#e4c22a;
     width:100%;
     text-align:center;
     color:black;
@@ -99,7 +109,6 @@ h4{
   line-height: 1.5;
   color:white;
   margin:0em;
-  padding: 0.5em .75em;
   width:100%;
   text-align:center;
   font-style:bold;
@@ -120,7 +129,6 @@ h4{
   }
 
   .goat-caption{
-    background-color:black;
     width:100%;
     text-align:center;
     color:white;
@@ -132,16 +140,18 @@ h5{
   line-height: 1.5;
   color:white;
   margin:0em;
-  padding: 0.5em .75em;
   width:100%;
   text-align:center;
   font-style:bold;
 }
 
+.rooster {
+  background-color:#bc0017;
+}
+
 .rooster-image{
   float:right;
   width:50%;
-  background-color:#bc0017;
   }
 
 
@@ -149,23 +159,12 @@ h5{
   float:left;
   margin: 0 auto;
   width:50%;
-  background-color:#bc0017;
 }
 
 .rooster-caption{
-  background-color:#bc0017;
   width:100%;
   text-align:center;
   color:white;
-}
-
-p{
-  font-size: .75rem;
-  font-style: italic;
-  font-family: "Noto Sans";
-  line-height: 1.5;
-  color:black;
-  margin:1em;
 }
 
 
@@ -174,26 +173,26 @@ h6{
   font-family: "Noto Sans";
   color:black;
   margin:0em;
-  padding: .5em .75em;
   width:100%;
   text-align:center;
   font-style:bold;
 }
 
+.ox{
+  background-color:#e4c22a;
+}
+
 .ox-symbol{
   float:right;
-  width:50%;
-  background-color:#e4c22a;
+  width:45%;
 }
 
 .ox-image{
   float:right;
   width:50%;
-  background-color:#e4c22a;
 }
 
 .ox-caption{
-  background-color:#e4c22a;
   width:100%;
   text-align:center;
   color:black;
@@ -204,6 +203,6 @@ footer{
   background-color: black;
   clear: both;
   font-size: 10px;
-  padding: 1em;
+  padding: 0.5em .75em;
   text-align: center;
 }
