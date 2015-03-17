@@ -15,10 +15,10 @@ header{
 }
 
 .medallion{
-    position:relative;
-    width:320px;
-    margin: 0 auto;
-    padding-top: 60px;
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  padding-top: 60px;
 }
 
 nav ul{
@@ -26,7 +26,7 @@ nav ul{
 }
 
 nav{
-  background-color:222222;
+  background-color:#222222;
   padding:.5em .5em 0.5em 0em;
   border:black;
 }
@@ -43,53 +43,66 @@ nav a{
   text-decoration: none;
 }
 
+.banner{
+  width:100%;
+}
+
+
 h2{
   font-size: 1.5rem;
   font-style: italic;
-  font-family: "Noto Sans", normal;
+  font-family: "Noto Sans";
   line-height: 1.5;
   color:white;
   margin:0em;
   padding: 0.5em .75em;
   width:100%;
   text-align:center;
+  font-style:bold;
 }
 
 h3{
-    background-color:#e4c22a;
-    font-family: "Noto Sans", normal;
-    line-height: 1.5;
-    color:black;
-    margin:0em;
-    padding: .5em .5em;
-    width:100%;
-    text-align:center;
+  background-color:#e4c22a;
+  font-family: "Noto Sans";
+  line-height: 1.5;
+  color:black;
+  margin:0em;
+  padding: .5em .5em;
+  width:100%;
+  text-align:center;
+  font-style:bold;
   }
 
   .dragon-symbol{
-      width:320px;
-      float:right;
-      width:50%;
-      background-color:#e4c22a;
+    float:right;
+    width:50%;
+    background-color:#e4c22a;
   }
 
   .dragon-image{
     float:left;
-    width:320px;
     margin: 0 auto;
     width:50%;
     background-color:#e4c22a;
   }
 
+  .dragon-caption{
+    background-color:#e4c22a;
+    width:100%;
+    text-align:center;
+    color:black;
+  }
+
 h4{
   background-color:black;
-  font-family: "Noto Sans", normal;
+  font-family: "Noto Sans";
   line-height: 1.5;
   color:white;
   margin:0em;
   padding: 0.5em .75em;
   width:100%;
   text-align:center;
+  font-style:bold;
 }
 
 .goat{
@@ -97,48 +110,59 @@ h4{
 }
 
 .goat-image{
-      width:320px;
-      float:right;
-      width:50%;
+  float:right;
+  width:50%;
   }
 
 .goat-symbol{
-      width:320px;
-      float:right;
-      width:50%;
+  float:right;
+  width:50%;
+  }
+
+  .goat-caption{
+    background-color:black;
+    width:100%;
+    text-align:center;
+    color:white;
   }
 
 h5{
   background-color:#bc0017;
-  font-family: "Noto Sans", normal;
+  font-family: "Noto Sans";
   line-height: 1.5;
   color:white;
   margin:0em;
   padding: 0.5em .75em;
   width:100%;
   text-align:center;
+  font-style:bold;
 }
 
 .rooster-image{
-      width:320px;
-      float:right;
-      width:50%;
-      background-color:#bc0017;
+  float:right;
+  width:50%;
+  background-color:#bc0017;
   }
 
 
 .rooster-symbol{
-    float:left;
-    width:320px;
-    margin: 0 auto;
-    width:50%;
-    background-color:#bc0017;
+  float:left;
+  margin: 0 auto;
+  width:50%;
+  background-color:#bc0017;
+}
+
+.rooster-caption{
+  background-color:#bc0017;
+  width:100%;
+  text-align:center;
+  color:white;
 }
 
 p{
   font-size: .75rem;
   font-style: italic;
-  font-family: "Noto Sans", normal;
+  font-family: "Noto Sans";
   line-height: 1.5;
   color:black;
   margin:1em;
@@ -147,27 +171,32 @@ p{
 
 h6{
   background-color:#e4c22a;
-  font-family: "Noto Sans", normal;
-  line-height: 1.5;
-  color:white;
+  font-family: "Noto Sans";
+  color:black;
   margin:0em;
   padding: .5em .75em;
   width:100%;
   text-align:center;
+  font-style:bold;
 }
 
 .ox-symbol{
-      width:320px;
-      float:right;
-      width:50%;
-      background-color:#e4c22a;
-}
-
-.ox-image{
-  width:320px;
   float:right;
   width:50%;
   background-color:#e4c22a;
+}
+
+.ox-image{
+  float:right;
+  width:50%;
+  background-color:#e4c22a;
+}
+
+.ox-caption{
+  background-color:#e4c22a;
+  width:100%;
+  text-align:center;
+  color:black;
 }
 
 footer{
