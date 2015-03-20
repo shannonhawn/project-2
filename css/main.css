@@ -1,6 +1,5 @@
 html{
   box-sizing:border-box;
-  font-family:"Noto-sans";
 }
 
 *,*::before, *::after {
@@ -17,7 +16,6 @@ header{
   background-color: #e7001d;
   padding:0.75em 0;
   text-align:center;
-  text-shadow:2px 2px 1px rgba(0,0,0,0.5);
 }
 
 .symbol{
@@ -26,9 +24,8 @@ header{
   position:absolute;
   font-weight:700;
   width:100%;
-  top:0px;
+  top:3px;
   font-size:22px;
-  text-shadow:2px 2px 1px rgba(0,0,0,0.5);
 }
 
 .medallion{
@@ -42,6 +39,7 @@ h1{
   position:absolute;
   width:100%;
   top:38px;
+  font-family:"Noto-sans";
 }
 
 a{
@@ -119,13 +117,13 @@ h3{
 }
   .dragon-symbol{
     float:left;
-    width:50%;
+    width:45%;
     margin:0 auto;
   }
 
   .dragon-image{
     float:right;
-    width:50%;
+    width:45%;
     margin:0 auto;
   }
 
@@ -135,6 +133,7 @@ h3{
     color:black;
     margin:0 auto;
     font-style:italic;
+    font-size:.75rem;
   }
 
 .goat{
