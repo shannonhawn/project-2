@@ -105,14 +105,14 @@ h2{
 h3{
   background-color:#e4c22a;
   font-family: "Noto Sans";
-  font-style:bold;
+  font-weight:bold;
   line-height: 1.5;
   color:black;
   margin:0em;
   width:100%;
   text-align:center;
-  margin:0;
   font-size:14px;
+  padding:1em
   }
 
 .dragon{
@@ -148,7 +148,7 @@ h3{
     width:100%;
     text-align:center;
     margin:0;
-    padding:0;
+    padding:1em
 }
 
 .goat-image{
@@ -181,6 +181,7 @@ h3{
     padding:0;
     background-color:#bc0017;
     font-weight:bold;
+    padding:1em
 }
 
 .rooster-image{
