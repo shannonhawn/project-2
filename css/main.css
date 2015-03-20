@@ -24,7 +24,7 @@ header{
   position:absolute;
   font-weight:700;
   width:100%;
-  top:3px;
+  top:1px;
   font-size:22px;
 }
 
@@ -54,7 +54,6 @@ nav ul{
   background-color:#222222;
 }
 
-
 li{
   padding: 0.5em .75em;
   background-color:#222222;
@@ -82,7 +81,7 @@ li{
 }
 
 p{
-  font-size:8px;
+  font-size:10px;
   font-family:"Noto sans";
 }
 
@@ -110,7 +109,6 @@ h3{
   width:100%;
   text-align:center;
   margin:0;
-  padding:0;
   font-size:14px;
   }
 
@@ -121,13 +119,15 @@ h3{
   .dragon-symbol{
     float:left;
     width:45%;
-    margin:0 auto;
+    margin:0;
+    padding:2em 2em 2em 2em;
   }
 
   .dragon-image{
     float:right;
     width:45%;
-    margin:0 auto;
+    margin:0;
+    padding:2em 2em 2em 2em;
   }
 
 .goat{
@@ -150,18 +150,20 @@ h3{
 .goat-image{
   float:right;
   width:45%;
-  margin:0 auto;
+  margin:0;
+  padding:2em 2em 2em 2em;
   }
 
 .goat-symbol{
   float:right;
   width:45%;
-  margin:0 auto;
+  margin:0;
+  padding:2em 2em 2em 2em;
   }
 
 .rooster {
   background-color:#bc0017;
-  margin:0 auto;
+  margin:0;
 }
 
 .rooster-header{
@@ -180,14 +182,16 @@ h3{
 .rooster-image{
   float:right;
   width:45%;
-  margin:0 auto;
+  margin:0;
+  padding:2em 2em 2em 2em;
   }
 
 
 .rooster-symbol{
   float:left;
-  margin: 0 auto;
+  margin: 0;
   width:45%;
+  padding:2em 2em 2em 2em;
 }
 
 .ox{
@@ -197,20 +201,22 @@ h3{
 .ox-symbol{
   float:right;
   width:45%;
-  margin:0 auto;
+  margin:0;
+  padding:2em 2em 2em 2em;
 }
 
 .ox-image{
   float:right;
   width:45%;
-  margin:0 auto;
+  margin:0;
+  padding:2em 2em 2em 2em;
 }
 
 .caption{
   width:100%;
   text-align:center;
   color:black;
-  margin:0 auto;
+  margin:0;
   font-style:italic;
   font-size:8px;
 }
@@ -219,9 +225,10 @@ h3{
   width:100%;
   text-align:center;
   color:white;
-  margin:0 auto;
+  margin:0;
   font-style:italic;
   font-size:8px;
+  clear:both;
 }
 
 footer{
@@ -231,5 +238,5 @@ footer{
   font-size: 10px;
   padding: 0.5em 0em;
   text-align: center;
-  margin:0 auto;
+  margin:0;
 }
