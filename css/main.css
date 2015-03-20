@@ -56,6 +56,10 @@ nav ul{
   background-color:#222222;
 }
 
+ul{
+  overflow: hidden;
+}
+
 li{
   padding: 0.5em .75em;
   background-color:#222222;
@@ -106,12 +110,12 @@ h3{
   background-color:#e4c22a;
   font-family: "Noto Sans";
   font-weight:bold;
-  line-height: 1.5;
+  line-height:1.5;
   color:black;
   margin:0em;
   width:100%;
   text-align:center;
-  font-size:14px;
+  font-size:16px;
   padding:1em
   }
 
@@ -135,12 +139,12 @@ h3{
 }
 
 .goat{
-  background-color:black;
+  background-color:#222222;
   margin:0 auto;
 }
 
 .goat-header{
-    background-color:black;
+    background-color:#222222;
     font-family: "Noto Sans";
     line-height: 1.5;
     color:white;
@@ -239,10 +243,11 @@ h3{
 
 footer{
   color: white;
-  background-color: black;
+  background-color: #222222;
   clear: both;
   font-size: 10px;
   padding: 0.5em 0em;
   text-align: center;
   margin:0;
+  text-decoration: underline;
 }
